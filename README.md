@@ -4,10 +4,9 @@ A yield-bearing stablecoin backed by USDC. Value accrues through exchange rate a
 
 ## Deployed Contracts (Avalanche Mainnet)
 
-| Contract | Address |
-|----------|---------|
-| **GLUSD** | `0xbE5577295bbfe5261f7FD0E2dc6B29c7F14405f7` |
-| **Broker RevenueSplitter** | `0x2A6915dD84b5d683870D24d667479FDB2236Fbf2` |
+| Contract                    | Address                                      |
+| --------------------------- | -------------------------------------------- |
+| **GLUSD**                   | `0xbE5577295bbfe5261f7FD0E2dc6B29c7F14405f7` |
 | **Compute RevenueSplitter** | `0xa989F99a8de7f122b037F1844609305279725737` |
 | **Storage RevenueSplitter** | `0xb31E12Ac0c290339eCd793BCdc5B44033D044F1D` |
 
@@ -34,7 +33,7 @@ A yield-bearing stablecoin backed by USDC. Value accrues through exchange rate a
 
 **GLUSD**: Users mint GLUSD by depositing USDC at the current exchange rate. The exchange rate increases when x402 service revenue is deposited, creating yield for all holders.
 
-**RevenueSplitter**: Each x402 service (storage, compute, broker) has its own splitter that distributes revenue to configured recipients, including the GLUSD vault.
+**RevenueSplitter**: Each x402 service (storage, compute) has its own splitter that distributes revenue to configured recipients, including the GLUSD vault.
 
 ## Development
 
