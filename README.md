@@ -6,9 +6,9 @@ A yield-bearing stablecoin backed by USDC. Value accrues through exchange rate a
 
 | Contract                    | Address                                      |
 | --------------------------- | -------------------------------------------- |
-| **GLUSD**                   | `0xbE5577295bbfe5261f7FD0E2dc6B29c7F14405f7` |
-| **Compute RevenueSplitter** | `0xa989F99a8de7f122b037F1844609305279725737` |
-| **Storage RevenueSplitter** | `0xb31E12Ac0c290339eCd793BCdc5B44033D044F1D` |
+| **GLUSD**                   | `0xD0105DB38fe58196bb138965489Bf7c982010422` |
+| **Compute RevenueSplitter** | `0xf18f7029dCC14Fb93d0b1B78027F15a9c943E359` |
+| **Storage RevenueSplitter** | `0x864B43e3e76aEBFFA6f254000b70ff8FC5FCD624` |
 
 **Network**: Avalanche C-Chain (43114)
 **USDC**: `0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E`
