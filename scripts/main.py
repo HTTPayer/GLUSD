@@ -263,7 +263,7 @@ print(f"GLUSD Current APRs: 7-day: {apr_7_d / 100}%, 30-day: {apr_30_d / 100}%")
 
 
 if glusd_total_supply == 0:
-    mint_amount = 1 * 10 ** glusd_decimals # Mint 1 GLUSD for testing
+    mint_amount = int(5.25 * 10 ** glusd_decimals) # Mint 5 w/ fee GLUSD for testing
     print(f"Minting {mint_amount / 10 ** glusd_decimals} GLUSD to admin...")
 
     if admin_usdc_balance < mint_amount:

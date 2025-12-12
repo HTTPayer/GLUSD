@@ -15,3 +15,7 @@ docs/
 
 notes.txt
 lib/
+
+!out/GLUSD.sol/GLUSD.json
+!out/RevenueSplitter.sol/RevenueSplitter.json
+!out/ERC20.sol/ERC20.json
